@@ -12,9 +12,9 @@ import javax.persistence.Table;
 public class Laptop {
 
     @Id
-    private Long LaptopId;
+    private Long laptopId;
     @Column
-    private String LaptopName;
+    private String laptopName;
     @Column
-    private String UserId;
+    private String userId;
 }

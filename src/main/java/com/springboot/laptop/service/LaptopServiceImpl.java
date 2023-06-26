@@ -23,11 +23,11 @@ public class LaptopServiceImpl implements LaptopService{
        return laptopRepo.findById(laptopId).get();
     }
 
-//    @Override
-//    public List<Laptop> GetByUserId(String userId) {
-//        List<Laptop> laptop =  laptopRepo.findByUserId(userId);
-//        return laptop;
-//    }
+    @Override
+    public List<Laptop> GetByUserId(String userId) {
+        List<Laptop> laptop =  laptopRepo.findByUserId(userId);
+        return laptop;
+    }
 
 
 }

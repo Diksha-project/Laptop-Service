@@ -12,5 +12,5 @@ public interface LaptopService {
    Laptop GetOneLaptop(Long laptopId);
 
 
-//   List<Laptop> GetByUserId(String userId);
+  List<Laptop> GetByUserId(String userId);
 }
